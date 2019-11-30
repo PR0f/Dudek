@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Ustawienia">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="3" left="3" bottom="3" right="3"/>
+    <constraints>
+      <xy x="20" y="20" width="585" height="404"/>
+    </constraints>
+    <properties>
+      <foreground color="-12828863"/>
+      <opaque value="true"/>
+      <requestFocusEnabled value="true"/>
+    </properties>
+    <border type="empty" title="">
+      <color color="-4516857"/>
+    </border>
+    <children>
+      <grid id="3605f" binding="dragPanel" layout-manager="GridLayoutManager" row-count="10" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="30" bottom="30" right="10"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12369085"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="bd6e" class="javax.swing.JLabel" binding="close">
+            <constraints>
+              <grid row="0" column="5" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-2500135"/>
+              <font name="SansSerif" size="24" style="1"/>
+              <foreground color="-4516857"/>
+              <opaque value="false"/>
+              <text value="x"/>
+            </properties>
+          </component>
+          <component id="12830" class="javax.swing.JLabel" binding="studioNameLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="126" height="19"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-4473925"/>
+              <font name="SansSerif" size="14" style="1"/>
+              <foreground color="-2500135"/>
+              <text resource-bundle="jezyk" key="Ustawienia.studioName"/>
+            </properties>
+          </component>
+          <hspacer id="24b52">
+            <constraints>
+              <grid row="0" column="4" row-span="3" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="10" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <component id="e0a0c" class="javax.swing.JLabel" binding="LanguageLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="126" height="19"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-4473925"/>
+              <font name="SansSerif" size="14" style="1"/>
+              <foreground color="-2500135"/>
+              <text resource-bundle="jezyk" key="Ustawienia.language"/>
+            </properties>
+          </component>
+          <component id="cd2e1" class="javax.swing.JComboBox" binding="languageCmb">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <toolTipText value=""/>
+            </properties>
+          </component>
+          <component id="3578c" class="javax.swing.JButton" binding="signUpButton" default-binding="true">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <actionCommand value="Sign up"/>
+              <background color="-4516857"/>
+              <borderPainted value="false"/>
+              <font name="SansSerif" size="16" style="1"/>
+              <foreground color="-1286"/>
+              <margin top="0" left="10" bottom="0" right="10"/>
+              <text resource-bundle="jezyk" key="Ustawienia.apply"/>
+            </properties>
+          </component>
+          <vspacer id="3cbaa">
+            <constraints>
+              <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="207" height="30"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <vspacer id="44d17">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="30"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="4e2cb" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-2500135"/>
+              <caretColor color="-12369085"/>
+              <disabledTextColor color="-4516857"/>
+              <font name="SansSerif" size="14" style="0"/>
+              <foreground color="-12369085"/>
+              <inheritsPopupMenu value="false"/>
+              <margin top="2" left="5" bottom="2" right="5"/>
+              <selectedTextColor color="-12369085"/>
+              <selectionColor color="-7500403"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="7809a" class="javax.swing.JLabel" binding="dodajAdminaLabel">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="126" height="19"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-4473925"/>
+              <font name="SansSerif" size="14" style="1"/>
+              <foreground color="-2500135"/>
+              <text resource-bundle="jezyk" key="Ustawienia.addAdminRights"/>
+            </properties>
+          </component>
+          <component id="5f3e7" class="javax.swing.JComboBox" binding="dodajAdminaCmb">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <toolTipText value=""/>
+            </properties>
+          </component>
+          <component id="8a496" class="javax.swing.JButton" binding="dodajAdmina">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <actionCommand value="Sign up"/>
+              <background color="-4516857"/>
+              <borderPainted value="false"/>
+              <font name="SansSerif" size="16" style="1"/>
+              <foreground color="-1286"/>
+              <margin top="0" left="10" bottom="0" right="10"/>
+              <text resource-bundle="jezyk" key="Ustawienia.adminRightsAdd"/>
+            </properties>
+          </component>
+          <component id="aa64a" class="javax.swing.JLabel" binding="designLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="126" height="19"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-4473925"/>
+              <font name="SansSerif" size="14" style="1"/>
+              <foreground color="-2500135"/>
+              <text resource-bundle="jezyk" key="Ustawienia.design"/>
+            </properties>
+          </component>
+          <component id="fe3af" class="javax.swing.JComboBox" binding="desginCmb">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <toolTipText value=""/>
+            </properties>
+          </component>
+          <component id="605ec" class="javax.swing.JLabel" binding="adminGiveUpLabel">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="126" height="19"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-4473925"/>
+              <font name="SansSerif" size="14" style="1"/>
+              <foreground color="-2500135"/>
+              <text resource-bundle="jezyk" key="Ustawienia.ownAdminRights"/>
+            </properties>
+          </component>
+          <component id="b3eae" class="javax.swing.JButton" binding="adminGiveUp">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <actionCommand value="Sign up"/>
+              <background color="-4516857"/>
+              <borderPainted value="false"/>
+              <font name="SansSerif" size="16" style="1"/>
+              <foreground color="-1286"/>
+              <margin top="0" left="10" bottom="0" right="10"/>
+              <text resource-bundle="jezyk" key="Ustawienia.adminGiveUp"/>
+            </properties>
+          </component>
+          <vspacer id="7bb81">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="30"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="c560" class="javax.swing.JLabel" binding="menuLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="126" height="19"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-4473925"/>
+              <font name="SansSerif" size="14" style="1"/>
+              <foreground color="-2500135"/>
+              <text resource-bundle="jezyk" key="Ustawienia.menu"/>
+            </properties>
+          </component>
+          <component id="e53bf" class="javax.swing.JComboBox" binding="menuCmb">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <toolTipText value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

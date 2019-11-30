@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="ListaZakupow">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="3"/>
+    <constraints>
+      <xy x="20" y="20" width="705" height="610"/>
+    </constraints>
+    <properties>
+      <foreground color="-12828863"/>
+      <minimumSize width="700" height="260"/>
+      <opaque value="true"/>
+      <preferredSize width="960" height="530"/>
+      <requestFocusEnabled value="true"/>
+    </properties>
+    <border type="empty" title="">
+      <color color="-4516857"/>
+    </border>
+    <children>
+      <grid id="3605f" binding="dragPanel" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="10"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12369085"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="bd6e" class="javax.swing.JLabel" binding="close">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="5" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-2500135"/>
+              <font name="SansSerif" size="24" style="1"/>
+              <foreground color="-4516857"/>
+              <opaque value="false"/>
+              <text value="x"/>
+            </properties>
+          </component>
+          <grid id="b7905" binding="mainPanel" layout-manager="FlowLayout" hgap="10" vgap="10" flow-align="1">
+            <constraints>
+              <grid row="0" column="0" row-span="4" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <enabled value="true"/>
+              <visible value="true"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <component id="c2ff1" class="javax.swing.JButton" binding="signUpButton">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="6" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-4516857"/>
+              <enabled value="true"/>
+              <font name="SansSerif" size="16" style="1"/>
+              <foreground color="-2500135"/>
+              <hideActionText value="false"/>
+              <text resource-bundle="jezyk" key="Zakupy.buy"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
